@@ -9,6 +9,6 @@ $factory->define(Brand::class, function (Faker $faker) {
     return [
       'name'=> $faker ->firstName(),
       'logo'=> $faker ->word(),
-      'locations'=>     rand(1,50),
+      'number_locations'=>     rand(1,50),
     ];
 });
